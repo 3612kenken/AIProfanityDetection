@@ -22,26 +22,10 @@ app.use('/api/profanity-logs', require('./api-gateway/profanityLogsApi'));
 app.use('/api/api-token-registered', require('./api-gateway/apiTokenRegisteredApi'));
 app.use('/api/api-token-renewal', require('./api-gateway/apiTokenRenewalApi'));
 app.use('/api/users', require('./api-gateway/usersApi'));
+app.use('/api/identify-profanity', require('./api-gateway/apiIdentifyProfanity')); // <-- add this line
 
 const { ProfanityLogs } = require('./db-schema-system/profanitySystemSchema');
 
-// Word cloud endpoint
-app.get('/api/wordcloud', async (req, res) => {
-    try {
-        const logs = await ProfanityLogs.find({}, 'detected_profanity').lean();
-        const freq = {};
-        logs.forEach(log => {
-            if (log.detected_profanity) {
-                log.detected_profanity.split(',').map(w => w.trim()).forEach(word => {
-                    if (word) freq[word] = (freq[word] || 0) + 1;
-                });
-            }
-        });
-        res.json(freq);
-    } catch (err) {
-        res.status(500).json({ error: 'Failed to generate word cloud' });
-    }
-});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

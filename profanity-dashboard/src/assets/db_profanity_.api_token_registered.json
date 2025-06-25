@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "685b9cca64b2a066c6ca0a77"
+  },
+  "full_name": "Alice Johnson",
+  "email": "alice.johnson@example.com",
+  "phone_number": "123-456-7890",
+  "api_token_hash": "$2b$10$E9LZpKujYwR0Hle9sBWh0eFGR0ZkuDJGc2u8GUq2fHv0NBzUrx4nq",
+  "status": "approved",
+  "registration_date": "2025-06-01T10:15:00.000Z",
+  "expiration_date": "2026-06-01T10:15:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "685b9cca64b2a066c6ca0a78"
+  },
+  "full_name": "Bob Smith",
+  "email": "bob.smith@example.com",
+  "phone_number": null,
+  "api_token_hash": "$2b$10$5vHuQp8ZyX8P59NDXLVbAOCm6DmaWh9I.TNHbP1SCv3jG7bTn6FTy",
+  "status": "pending",
+  "registration_date": "2025-05-15T09:30:00.000Z",
+  "expiration_date": "2026-05-15T09:30:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "685b9cca64b2a066c6ca0a79"
+  },
+  "full_name": "Clara Ng",
+  "email": "clara.ng@example.com",
+  "phone_number": "+44 7700 900123",
+  "api_token_hash": "$2b$12$4Y3JQVG6hYpuhKYFqNeQ9e2fwMQPfEtVXsbnIlScvHb7MS5GibOoe",
+  "status": "revoked",
+  "registration_date": "2025-04-20T12:00:00.000Z",
+  "expiration_date": "2026-04-20T12:00:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "685b9cca64b2a066c6ca0a7a"
+  },
+  "full_name": "David Morales",
+  "email": "david.morales@example.com",
+  "phone_number": "555-888-2345",
+  "api_token_hash": "$2b$10$J8ZekU7KOx9N.VU9PfU3Z.WZZZ8hQxLgFZaNvt9Ce2Gp8glG4cEJG",
+  "status": "approved",
+  "registration_date": "2025-03-10T14:45:00.000Z",
+  "expiration_date": "2026-03-10T14:45:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "685b9cca64b2a066c6ca0a7b"
+  },
+  "full_name": "Emily Tran",
+  "email": "emily.tran@example.com",
+  "phone_number": null,
+  "api_token_hash": "$2b$10$Zl1L5LtZcDUnFiCkYuYzUO1MJ/yLo9ht5dk0IMnVymHH8dbA4vTV2",
+  "status": "pending",
+  "registration_date": "2025-06-20T08:00:00.000Z",
+  "expiration_date": "2026-06-20T08:00:00.000Z"
+},
+{
+  "_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "full_name": "Alice Johnson",
+  "email": "alice.johnson@example.com",
+  "phone_number": "+1234567890",
+  "api_token_hash": "a1b2c3d4e5f6g7h8i9j0",
+  "status": "approved",
+  "registration_date": {
+    "$date": "2025-06-01T08:00:00.000Z"
+  },
+  "expiration_date": {
+    "$date": "2025-12-01T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "full_name": "Bob Smith",
+  "email": "bob.smith@example.com",
+  "phone_number": "+1987654321",
+  "api_token_hash": "z9y8x7w6v5u4t3s2r1q0",
+  "status": "pending",
+  "registration_date": {
+    "$date": "2025-06-10T10:30:00.000Z"
+  },
+  "expiration_date": {
+    "$date": "2025-12-10T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "full_name": "Carol Danvers",
+  "email": "carol.d@example.com",
+  "phone_number": null,
+  "api_token_hash": "m1n2b3v4c5x6z7l8k9j0",
+  "status": "revoked",
+  "registration_date": {
+    "$date": "2025-06-15T12:00:00.000Z"
+  },
+  "expiration_date": {
+    "$date": "2025-12-15T12:00:00.000Z"
+  }
+}]

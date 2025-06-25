@@ -1,0 +1,467 @@
+[{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "api_tr_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "original_value": "This is damn annoying!",
+  "detected_profanity": "damn",
+  "changed_original": "This is **** annoying!",
+  "pt_id": {
+    "$oid": "777aaa000000000000000001"
+  },
+  "log_time": {
+    "$date": "2025-06-20T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a02"
+  },
+  "api_tr_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "original_value": "What the hell is this?",
+  "detected_profanity": "hell",
+  "changed_original": "What the **** is this?",
+  "pt_id": {
+    "$oid": "777aaa000000000000000002"
+  },
+  "log_time": {
+    "$date": "2025-06-20T14:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a03"
+  },
+  "api_tr_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "original_value": "Holy shit, that's loud.",
+  "detected_profanity": "shit",
+  "changed_original": "Holy ****, that's loud.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000003"
+  },
+  "log_time": {
+    "$date": "2025-06-20T14:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a04"
+  },
+  "api_tr_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "original_value": "Get the damn thing out.",
+  "detected_profanity": "damn",
+  "changed_original": "Get the **** thing out.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000001"
+  },
+  "log_time": {
+    "$date": "2025-06-21T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a05"
+  },
+  "api_tr_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "original_value": "You bastard!",
+  "detected_profanity": "bastard",
+  "changed_original": "You ******!",
+  "pt_id": {
+    "$oid": "777aaa000000000000000004"
+  },
+  "log_time": {
+    "$date": "2025-06-21T09:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a06"
+  },
+  "api_tr_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "original_value": "Shut the hell up.",
+  "detected_profanity": "hell",
+  "changed_original": "Shut the **** up.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000002"
+  },
+  "log_time": {
+    "$date": "2025-06-21T09:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a07"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "Screw that idea.",
+  "detected_profanity": "screw",
+  "changed_original": "***** that idea.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000005"
+  },
+  "log_time": {
+    "$date": "2025-06-22T15:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a08"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "This is total crap.",
+  "detected_profanity": "crap",
+  "changed_original": "This is total ****.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000006"
+  },
+  "log_time": {
+    "$date": "2025-06-22T15:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a09"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "Don't be an ass.",
+  "detected_profanity": "ass",
+  "changed_original": "Don't be an ***.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000007"
+  },
+  "log_time": {
+    "$date": "2025-06-22T15:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a0a"
+  },
+  "api_tr_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "original_value": "Damn, that was close.",
+  "detected_profanity": "damn",
+  "changed_original": "****, that was close.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000001"
+  },
+  "log_time": {
+    "$date": "2025-06-22T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a0b"
+  },
+  "api_tr_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "original_value": "You're pissing me off.",
+  "detected_profanity": "pissing",
+  "changed_original": "You're ****** me off.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000008"
+  },
+  "log_time": {
+    "$date": "2025-06-22T16:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a0c"
+  },
+  "api_tr_id": {
+    "$oid": "666aaa111111111111111111"
+  },
+  "original_value": "Bloody mess everywhere.",
+  "detected_profanity": "bloody",
+  "changed_original": "****** mess everywhere.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000009"
+  },
+  "log_time": {
+    "$date": "2025-06-22T16:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a0d"
+  },
+  "api_tr_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "original_value": "That idea is crap.",
+  "detected_profanity": "crap",
+  "changed_original": "That idea is ****.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000006"
+  },
+  "log_time": {
+    "$date": "2025-06-23T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a0e"
+  },
+  "api_tr_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "original_value": "You look like a jerk.",
+  "detected_profanity": "jerk",
+  "changed_original": "You look like a ****.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000010"
+  },
+  "log_time": {
+    "$date": "2025-06-23T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a0f"
+  },
+  "api_tr_id": {
+    "$oid": "666bbb222222222222222222"
+  },
+  "original_value": "That was shitty.",
+  "detected_profanity": "shitty",
+  "changed_original": "That was ******.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000011"
+  },
+  "log_time": {
+    "$date": "2025-06-23T10:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a10"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "You screwed it up.",
+  "detected_profanity": "screwed",
+  "changed_original": "You ****** it up.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000012"
+  },
+  "log_time": {
+    "$date": "2025-06-24T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a11"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "You're a pain in the ass.",
+  "detected_profanity": "ass",
+  "changed_original": "You're a pain in the ***.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000007"
+  },
+  "log_time": {
+    "$date": "2025-06-24T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a12"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "Hell no!",
+  "detected_profanity": "hell",
+  "changed_original": "**** no!",
+  "pt_id": {
+    "$oid": "777aaa000000000000000002"
+  },
+  "log_time": {
+    "$date": "2025-06-24T12:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c381864b2a066c6ca0a13"
+  },
+  "api_tr_id": {
+    "$oid": "666ccc333333333333333333"
+  },
+  "original_value": "Crap happens.",
+  "detected_profanity": "crap",
+  "changed_original": "**** happens.",
+  "pt_id": {
+    "$oid": "777aaa000000000000000006"
+  },
+  "log_time": {
+    "$date": "2025-06-24T12:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "685c58666f63bb1da04d22e4"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "original_value": "hoy gago ka putang ina mo",
+  "detected_profanity": "putang ina mo",
+  "changed_original": "hoy **** ka *************",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a14"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:13:26.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c58666f63bb1da04d22e6"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "original_value": "hoy gago ka putang ina mo",
+  "detected_profanity": "gago",
+  "changed_original": "hoy **** ka *************",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a15"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:13:26.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c58676f63bb1da04d22e8"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "original_value": "hoy gago ka putang ina mo",
+  "detected_profanity": "puta",
+  "changed_original": "hoy **** ka *************",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a25"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:13:27.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c590e6f63bb1da04d22ec"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "original_value": "fuck this guy",
+  "detected_profanity": "fuck",
+  "changed_original": "**** this guy",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a14"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:16:14.080Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c591b6f63bb1da04d22ef"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "original_value": "fuck you this guy",
+  "detected_profanity": "fuck",
+  "changed_original": "**** you this guy",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a14"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:16:27.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c591c6f63bb1da04d22f1"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a01"
+  },
+  "original_value": "fuck you this guy",
+  "detected_profanity": "fuck you",
+  "changed_original": "**** you this guy",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a14"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:16:28.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c5ab96f63bb1da04d2303"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a12"
+  },
+  "original_value": "puke",
+  "detected_profanity": "puke",
+  "changed_original": "****",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a37"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:23:21.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685c5ac36f63bb1da04d2306"
+  },
+  "api_tr_id": {
+    "$oid": "685c381864b2a066c6ca0a12"
+  },
+  "original_value": "pokpok",
+  "detected_profanity": "pokpok",
+  "changed_original": "******",
+  "pt_id": {
+    "$oid": "685b85cc64b2a066c6ca0a26"
+  },
+  "log_time": {
+    "$date": "2025-06-25T20:23:31.891Z"
+  },
+  "__v": 0
+}]

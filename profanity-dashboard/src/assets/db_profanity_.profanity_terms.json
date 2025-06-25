@@ -1,0 +1,700 @@
+[{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a14"
+  },
+  "term_tagalog": "Putang ina mo / Tangina / Tang ina",
+  "term_english": "Your mother is a whore / Fuck / Fuck You",
+  "category": "Strong Insult",
+  "meaning": "Literally \"Your mother is a whore\"; used to express extreme anger or frustration.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a15"
+  },
+  "term_tagalog": "Gago / Gaga",
+  "term_english": "Stupid / Foolish",
+  "category": "Intelligence Insult",
+  "meaning": "Means \"stupid\" or \"foolish\"; can be used jokingly or offensively.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a16"
+  },
+  "term_tagalog": "Tanga",
+  "term_english": "Stupid / Idiot",
+  "category": "Intelligence Insult",
+  "meaning": "Translates to \"stupid\" or \"idiot\"; denotes lack of common sense.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a17"
+  },
+  "term_tagalog": "Bobo / Boba",
+  "term_english": "Dumb / Slow-witted",
+  "category": "Intelligence Insult",
+  "meaning": "Means \"dumb\" or \"slow-witted\"; used as an insult.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a18"
+  },
+  "term_tagalog": "Ulol",
+  "term_english": "Crazy / Mad",
+  "category": "Mental State Insult",
+  "meaning": "Means \"crazy\" or \"mad\"; used to describe irrational behavior.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a19"
+  },
+  "term_tagalog": "Hayop ka",
+  "term_english": "You're an animal",
+  "category": "Animalistic Insult",
+  "meaning": "Literally \"You're an animal\"; implies wild or uncivilized behavior.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a1a"
+  },
+  "term_tagalog": "Lintik",
+  "term_english": "Lightning",
+  "category": "Curse / Expletive",
+  "meaning": "Literally \"lightning\"; used to curse someone.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a1b"
+  },
+  "term_tagalog": "Punyeta",
+  "term_english": "Damn it / Frustration",
+  "category": "Expletive",
+  "meaning": "Expression of frustration or annoyance.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a1c"
+  },
+  "term_tagalog": "Leche",
+  "term_english": "Damn / Annoyance",
+  "category": "Expletive",
+  "meaning": "Used to express irritation or annoyance.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a1d"
+  },
+  "term_tagalog": "Bwisit",
+  "term_english": "Nuisance",
+  "category": "Mild Insult",
+  "meaning": "Means \"nuisance\"; used for mild irritation.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a1e"
+  },
+  "term_tagalog": "Kupal",
+  "term_english": "Smegma (Obnoxious person)",
+  "category": "Vulgar Insult",
+  "meaning": "Refers to smegma; used to describe obnoxious people.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a1f"
+  },
+  "term_tagalog": "Pakyu",
+  "term_english": "F*** you",
+  "category": "Direct Insult",
+  "meaning": "Phonetic \"F*** you\"; highly offensive.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a20"
+  },
+  "term_tagalog": "Tarantado",
+  "term_english": "Fool / Idiot",
+  "category": "Intelligence Insult",
+  "meaning": "Means \"fool\"; describes foolish behavior.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a21"
+  },
+  "term_tagalog": "Walang hiya",
+  "term_english": "Shameless",
+  "category": "Shamelessness Insult",
+  "meaning": "Literally \"no shame\"; brazen behavior.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a22"
+  },
+  "term_tagalog": "Anak ng puta",
+  "term_english": "Son of a whore",
+  "category": "Strong Insult",
+  "meaning": "Literally \"son of a whore\"; severe insult.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a23"
+  },
+  "term_tagalog": "Anak ng tokwa",
+  "term_english": "Son of tofu (Euphemism)",
+  "category": "Euphemistic Insult",
+  "meaning": "Humorous alternative to \"anak ng puta\".",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a24"
+  },
+  "term_tagalog": "Buang",
+  "term_english": "Crazy / Insane",
+  "category": "Mental State Insult",
+  "meaning": "Means \"crazy\" or \"insane\".",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a25"
+  },
+  "term_tagalog": "Puta",
+  "term_english": "Whore",
+  "category": "Strong Insult",
+  "meaning": "Means \"whore\"; strong insult.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a26"
+  },
+  "term_tagalog": "Pokpok",
+  "term_english": "Prostitute",
+  "category": "Sexual Insult",
+  "meaning": "Slang for \"prostitute\".",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a27"
+  },
+  "term_tagalog": "Malibog",
+  "term_english": "Horny",
+  "category": "Sexual Descriptor",
+  "meaning": "Means \"horny\"; describes lustful behavior.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a28"
+  },
+  "term_tagalog": "Tae ka",
+  "term_english": "You're shit",
+  "category": "Mild Insult",
+  "meaning": "Literally \"you're shit\"; used to express disdain or insult someone.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a29"
+  },
+  "term_tagalog": "Supót",
+  "term_english": "Uncircumcised male",
+  "category": "Cultural Insult",
+  "meaning": "Refers to an uncircumcised male; considered an insult due to cultural norms.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a2a"
+  },
+  "term_tagalog": "Ogag",
+  "term_english": "Fool / Stupid person",
+  "category": "Intelligence Insult",
+  "meaning": "Variant of \"gago\"; means \"fool\" or \"stupid person\".",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a2b"
+  },
+  "term_tagalog": "Hinayupak",
+  "term_english": "Despicable / Damned",
+  "category": "Strong Insult",
+  "meaning": "Means \"despicable\" or \"damned\"; strong contempt.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a2c"
+  },
+  "term_tagalog": "Putragis",
+  "term_english": "Mild damn / Frustration",
+  "category": "Expletive",
+  "meaning": "A milder expletive; expresses frustration or annoyance.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a2d"
+  },
+  "term_tagalog": "Pakshet",
+  "term_english": "Frustration curse",
+  "category": "Expletive",
+  "meaning": "Blend of \"pakshet\"; expresses frustration or annoyance.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a2e"
+  },
+  "term_tagalog": "Susmaryosep",
+  "term_english": "Jesus, Mary, and Joseph",
+  "category": "Religious Expletive",
+  "meaning": "Contraction of \"Jesus, Mary, and Joseph\"; surprise/exasperation.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a2f"
+  },
+  "term_tagalog": "Shet",
+  "term_english": "Shit",
+  "category": "Expletive",
+  "meaning": "Phonetic spelling of \"shit\"; expresses frustration or annoyance.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a30"
+  },
+  "term_tagalog": "Taena",
+  "term_english": "Contraction of tangina",
+  "category": "Expletive",
+  "meaning": "Contraction of \"tangina\"; expresses frustration or annoyance.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a31"
+  },
+  "term_tagalog": "Ukinam",
+  "term_english": "Your mother's vagina (Ilocano)",
+  "category": "Regional Insult",
+  "meaning": "Ilocano term meaning \"your mother's vagina\"; highly offensive.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a32"
+  },
+  "term_tagalog": "Pisting yawa",
+  "term_english": "Damned demon (Visayan)",
+  "category": "Regional Insult",
+  "meaning": "Visayan term meaning \"damned demon\"; used to express strong anger.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a33"
+  },
+  "term_tagalog": "Laspag",
+  "term_english": "Sexually worn-out woman",
+  "category": "Sexual Insult",
+  "meaning": "Describes a woman as sexually worn out; highly offensive.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a34"
+  },
+  "term_tagalog": "Malandi",
+  "term_english": "Flirtatious / Promiscuous",
+  "category": "Sexual Descriptor",
+  "meaning": "Means \"flirtatious\" or \"promiscuous\"; describes someone perceived as sexually forward.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a35"
+  },
+  "term_tagalog": "Burikat",
+  "term_english": "Prostitute (Visayan)",
+  "category": "Sexual Insult",
+  "meaning": "Visayan term for \"prostitute\"; highly offensive.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a36"
+  },
+  "term_tagalog": "Burat",
+  "term_english": "Male genitalia",
+  "category": "Vulgar Term",
+  "meaning": "Refers to the male genitalia; used as a vulgar insult.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a37"
+  },
+  "term_tagalog": "Puke/Puki",
+  "term_english": "Female genitalia",
+  "category": "Vulgar Term",
+  "meaning": "Refers to the female genitalia; used as a vulgar insult.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a38"
+  },
+  "term_tagalog": "Tamod",
+  "term_english": "Semen",
+  "category": "Vulgar Term",
+  "meaning": "Means \"semen\"; used in vulgar expressions.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a39"
+  },
+  "term_tagalog": "Bulbol",
+  "term_english": "Pubic hair",
+  "category": "Vulgar Term",
+  "meaning": "Refers to pubic hair; used in vulgar expressions.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a3a"
+  },
+  "term_tagalog": "Ungas",
+  "term_english": "Idiot / Fool",
+  "category": "Intelligence Insult",
+  "meaning": "Means \"idiot\" or \"fool\"; used to insult someone's intelligence.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a3b"
+  },
+  "term_tagalog": "Sira ulo",
+  "term_english": "Broken head / Crazy",
+  "category": "Mental State Insult",
+  "meaning": "Literally \"broken head\"; means \"crazy\" or \"insane\".",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a3c"
+  },
+  "term_tagalog": "Demonyo ka",
+  "term_english": "You're a demon",
+  "category": "Strong Insult",
+  "meaning": "Literally \"you're a demon\"; used to express strong contempt.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a3d"
+  },
+  "term_tagalog": "Wala kang kwenta",
+  "term_english": "You're worthless",
+  "category": "Worthlessness Insult",
+  "meaning": "Means \"you're worthless\"; used to insult someone's value or usefulness.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a3e"
+  },
+  "term_tagalog": "Muka kang tae",
+  "term_english": "You look like shit",
+  "category": "Appearance Insult",
+  "meaning": "Literally \"you look like shit\"; used to insult someone's appearance.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a3f"
+  },
+  "term_tagalog": "Hampaslupa",
+  "term_english": "Ground beater / Extremely poor",
+  "category": "Socioeconomic Insult",
+  "meaning": "Literally \"ground beater\"; refers to someone extremely poor or a beggar.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a40"
+  },
+  "term_tagalog": "Mamatay ka na sana",
+  "term_english": "I hope you die",
+  "category": "Curse",
+  "meaning": "Literally \"I hope you die\"; a strong curse wishing death upon someone.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a41"
+  },
+  "term_tagalog": "Manoy",
+  "term_english": "Male genitalia (slang)",
+  "category": "Vulgar Term",
+  "meaning": "Slang for the male genitalia; used in vulgar expressions.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a42"
+  },
+  "term_tagalog": "Magbate",
+  "term_english": "Male masturbation (slang)",
+  "category": "Vulgar Term",
+  "meaning": "Slang for male masturbation; used in vulgar expressions.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a43"
+  },
+  "term_tagalog": "Magpingger",
+  "term_english": "Female masturbation (slang)",
+  "category": "Vulgar Term",
+  "meaning": "Slang for female masturbation; used in vulgar expressions.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a44"
+  },
+  "term_tagalog": "Mahalay",
+  "term_english": "Lewd / Indecent",
+  "category": "Sexual Descriptor",
+  "meaning": "Means \"lewd\" or \"indecent\"; describes someone with overt sexual behavior.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a45"
+  },
+  "term_tagalog": "Mani",
+  "term_english": "Peanut (female genitalia slang)",
+  "category": "Vulgar Term",
+  "meaning": "Literally \"peanut\"; slang for the female genitalia.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a46"
+  },
+  "term_tagalog": "Tamad",
+  "term_english": "Lazy",
+  "category": "Character Insult",
+  "meaning": "Means \"lazy\"; used to insult someone's work ethic.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a47"
+  },
+  "term_tagalog": "Chismosa",
+  "term_english": "Gossiper",
+  "category": "Character Insult",
+  "meaning": "Means \"gossiper\"; used to insult someone who spreads rumors.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a48"
+  },
+  "term_tagalog": "Ayoko na",
+  "term_english": "I give up",
+  "category": "Expression",
+  "meaning": "Means \"I give up\" or \"I don't want to anymore\"; used to express frustration or resignation.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a49"
+  },
+  "term_tagalog": "Alis!",
+  "term_english": "Leave!",
+  "category": "Command",
+  "meaning": "Means \"leave!\" or \"go away!\"; used to tell someone to go away.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a4a"
+  },
+  "term_tagalog": "Galit ako",
+  "term_english": "I'm angry",
+  "category": "Expression",
+  "meaning": "Means \"I'm angry\"; used to express anger.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a4b"
+  },
+  "term_tagalog": "Tama na!",
+  "term_english": "That's enough!",
+  "category": "Command",
+  "meaning": "Means \"that's enough!\"; used to tell someone to stop.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a4c"
+  },
+  "term_tagalog": "Putik",
+  "term_english": "Mud",
+  "category": "Expletive",
+  "meaning": "Literally \"mud\"; used as a mild expletive to express frustration.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a4d"
+  },
+  "term_tagalog": "Sampal",
+  "term_english": "Slap",
+  "category": "Action",
+  "meaning": "Means \"slap\"; used to threaten or describe slapping someone.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a4e"
+  },
+  "term_tagalog": "Pusa",
+  "term_english": "Cat",
+  "category": "Animalistic Insult",
+  "meaning": "Literally \"cat\"; used in expressions to insult or express annoyance.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a4f"
+  },
+  "term_tagalog": "Hudas",
+  "term_english": "Judas / Traitor",
+  "category": "Betrayal Insult",
+  "meaning": "Refers to \"Judas\"; used to label someone as a traitor.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a50"
+  },
+  "term_tagalog": "Hitad",
+  "term_english": "Promiscuous woman",
+  "category": "Sexual Insult",
+  "meaning": "Refers to a promiscuous woman; used to insult someone's sexual behavior.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a51"
+  },
+  "term_tagalog": "Tumbong",
+  "term_english": "Anus",
+  "category": "Vulgar Term",
+  "meaning": "Refers to the anus; used in vulgar expressions.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a52"
+  },
+  "term_tagalog": "Labo",
+  "term_english": "Confused / Dim-witted",
+  "category": "Intelligence Insult",
+  "meaning": "Means \"confused\" or \"dim-witted\"; used to insult someone’s mental clarity.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a53"
+  },
+  "term_tagalog": "Kangkong",
+  "term_english": "Water spinach (useless)",
+  "category": "Food Insult",
+  "meaning": "Means \"water spinach\"; used to call someone useless or weak.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a54"
+  },
+  "term_tagalog": "Peste",
+  "term_english": "Plague",
+  "category": "Expletive",
+  "meaning": "Means \"plague\"; used as a mild curse.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a55"
+  },
+  "term_tagalog": "Landi",
+  "term_english": "Flirtatious / Promiscuous",
+  "category": "Sexual Descriptor",
+  "meaning": "Means \"flirtatious\" or \"promiscuous\"; used to describe someone sexually forward.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a56"
+  },
+  "term_tagalog": "Bastos",
+  "term_english": "Rude / Vulgar",
+  "category": "Character Insult",
+  "meaning": "Means \"rude\" or \"vulgar\"; describes bad manners.",
+  "profanity_level": 2
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a57"
+  },
+  "term_tagalog": "Tibak",
+  "term_english": "To kill / Break",
+  "category": "Strong Insult",
+  "meaning": "Means \"to kill\" or \"break\"; used metaphorically to insult.",
+  "profanity_level": 3
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a58"
+  },
+  "term_tagalog": "Peewee",
+  "term_english": "Small / Weak",
+  "category": "Physical Insult",
+  "meaning": "Means \"small\" or \"weak\"; used to insult physical stature.",
+  "profanity_level": 1
+},
+{
+  "_id": {
+    "$oid": "685b85cc64b2a066c6ca0a59"
+  },
+  "term_tagalog": "Bungisngis",
+  "term_english": "Giggly / Foolish",
+  "category": "Character Insult",
+  "meaning": "Means \"giggly\" or \"foolish\"; used to describe silly behavior.",
+  "profanity_level": 1
+}]
