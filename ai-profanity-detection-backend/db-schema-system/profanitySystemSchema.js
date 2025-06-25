@@ -3,6 +3,16 @@ const mongoose = require('mongoose');
 // -----------------------------
 // API Token Registered Schema
 // -----------------------------
+
+/*
+const tokens = [
+  'token1-Alice',
+  'token2-Bob',
+  'token3-Clara',
+  'token4-David',
+  'token5-Emily'
+];
+*/
 const ApiTokenRegisteredSchema = new mongoose.Schema({
   full_name: { type: String, required: true, maxlength: 100 },
   email: { type: String, required: true, maxlength: 100 },
