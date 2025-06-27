@@ -11,7 +11,7 @@ import ApiTokenRegisteredForm from './components/ApiTokenRegisteredForm';
 import ApiTokenRenewalForm from './components/ApiTokenRenewalForm';
 import UsersForm from './components/UsersForm';
 import IdentifyProfanityForm from './components/IdentifyProfanityForm';
-
+import CommentSection from './components/CommentSection';
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path="/api-token-renewal" element={<ApiTokenRenewalForm />} />
         <Route path="/users" element={<UsersForm />} />
         <Route path="/identify-profanity" element={<IdentifyProfanityForm />} />
+          <Route path="/comments" element={<CommentSection />} />
       </Routes>
     </Router>
   )

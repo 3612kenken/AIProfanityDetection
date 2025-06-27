@@ -33,6 +33,9 @@ export default function Navigation() {
               <li className="nav-item">
               <Link className="nav-link" to="/identify-profanity">Identify Profanity</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/comments">Comments</Link>
+            </li>
           </ul>
         </div>
       </div>

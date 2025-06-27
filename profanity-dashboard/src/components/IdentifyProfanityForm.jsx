@@ -68,7 +68,7 @@ export default function IdentifyProfanityForm() {
                   {result.detected_profanities.map((w, i) => <li key={i}>{w}</li>)}
                 </ul>
               ) : (
-                <div className="text-success">No profanities detected.</div>
+                <div className="text-success">{sentence} <br/><br/>No profanities detected.</div>
               )}
               {result.saved_logs && result.saved_logs.length > 0 && (
                 <div className="mt-3">

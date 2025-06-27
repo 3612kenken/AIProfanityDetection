@@ -58,6 +58,10 @@ const ProfanityLogsSchema = new mongoose.Schema({
   detected_profanity: { type: String, required: true },
   changed_original: { type: String, required: true },
   pt_id: { type: mongoose.Schema.Types.ObjectId, ref: 'ProfanityTerms', required: true },
+  recipient_public_ip: { type: String},
+  recipient_email: { type: String},
+  recipient_mac: { type: String},
+  recipient_address: { type: String},
   log_time: { type: Date, default: Date.now }
 }, { collection: 'profanity_logs' }); 
 

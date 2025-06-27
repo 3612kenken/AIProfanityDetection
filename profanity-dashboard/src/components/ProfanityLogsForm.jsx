@@ -9,6 +9,12 @@ const initialForm = {
   detected_profanity: '',
   changed_original: '',
   pt_id: '',
+  recipient_full_name: '',
+  recipient_public_ip: '',
+  recipient_email: '',
+  recipient_mac: '',
+  recipient_address: '',
+  recipient_phone_number: '',
   log_time: ''
 };
 
@@ -79,6 +85,12 @@ export default function ProfanityLogsForm() {
       detected_profanity: log.detected_profanity,
       changed_original: log.changed_original,
       pt_id: log.pt_id,
+      recipient_full_name: log.recipient_full_name || '',
+      recipient_public_ip: log.recipient_public_ip || '',
+      recipient_email: log.recipient_email || '',
+      recipient_mac: log.recipient_mac || '',
+      recipient_address: log.recipient_address || '',
+      recipient_phone_number: log.recipient_phone_number || '',
       log_time: log.log_time ? log.log_time.slice(0, 16) : ''
     });
     setEditingId(log._id);
@@ -127,6 +139,30 @@ export default function ProfanityLogsForm() {
               <input name="pt_id" value={form.pt_id} onChange={handleChange} required className="form-control" />
             </div>
             <div className="col-md-4">
+              <label className="form-label">Recipient Full Name</label>
+              <input name="recipient_full_name" value={form.recipient_full_name} onChange={handleChange} className="form-control" />
+            </div>
+            <div className="col-md-4">
+              <label className="form-label">Recipient Public IP</label>
+              <input name="recipient_public_ip" value={form.recipient_public_ip} onChange={handleChange} className="form-control" />
+            </div>
+            <div className="col-md-4">
+              <label className="form-label">Recipient Email</label>
+              <input name="recipient_email" value={form.recipient_email} onChange={handleChange} className="form-control" />
+            </div>
+            <div className="col-md-4">
+              <label className="form-label">Recipient MAC</label>
+              <input name="recipient_mac" value={form.recipient_mac} onChange={handleChange} className="form-control" />
+            </div>
+            <div className="col-md-4">
+              <label className="form-label">Recipient Address</label>
+              <input name="recipient_address" value={form.recipient_address} onChange={handleChange} className="form-control" />
+            </div>
+            <div className="col-md-4">
+              <label className="form-label">Recipient Phone Number</label>
+              <input name="recipient_phone_number" value={form.recipient_phone_number} onChange={handleChange} className="form-control" />
+            </div>
+            <div className="col-md-4">
               <label className="form-label">Log Time</label>
               <input type="datetime-local" name="log_time" value={form.log_time} onChange={handleChange} className="form-control" />
             </div>
@@ -151,6 +187,12 @@ export default function ProfanityLogsForm() {
                   <th>Detected Profanity</th>
                   <th>Changed Original</th>
                   <th>Profanity Term ID</th>
+                  <th>Recipient Full Name</th>
+                  <th>Recipient Public IP</th>
+                  <th>Recipient Email</th>
+                  <th>Recipient MAC</th>
+                  <th>Recipient Address</th>
+                  <th>Recipient Phone Number</th>
                   <th>Log Time</th>
                   <th>Actions</th>
                 </tr>
@@ -164,6 +206,12 @@ export default function ProfanityLogsForm() {
                     <td>{log.detected_profanity}</td>
                     <td>{log.changed_original}</td>
                     <td>{log.pt_id}</td>
+                    <td>{log.recipient_full_name}</td>
+                    <td>{log.recipient_public_ip}</td>
+                    <td>{log.recipient_email}</td>
+                    <td>{log.recipient_mac}</td>
+                    <td>{log.recipient_address}</td>
+                    <td>{log.recipient_phone_number}</td>
                     <td>{log.log_time ? new Date(log.log_time).toLocaleString() : ''}</td>
                     <td>
                       <button onClick={() => handleEdit(log)} className="btn btn-sm btn-warning me-2">Edit</button>
@@ -173,7 +221,7 @@ export default function ProfanityLogsForm() {
                 ))}
                 {logs.length === 0 && (
                   <tr>
-                    <td colSpan={8} className="text-center text-muted">No records found.</td>
+                    <td colSpan={14} className="text-center text-muted">No records found.</td>
                   </tr>
                 )}
               </tbody>
