@@ -56,7 +56,7 @@ const WordCloud = () => {
   const minContainerWidth = '100%';
   const minContainerHeight = 600;
   const centerX = 300;
-  const centerY = 0;
+  const centerY = 100;
   const baseRadius = 35;
   const stepRadius = 22;
   const wordWidth = 50;
@@ -70,8 +70,8 @@ const WordCloud = () => {
         // Dynamic wordsInGroup and radius step based on font size
         const fontSize = getFontSize(count, min, max, 18, 48);
         // Increase margin and radius step for more space between words
-        const dynamicMargin = Math.max(100, Math.round(fontSize * 0));
-        const dynamicPadding = `0 ${Math.round(fontSize * 0.3)}px`;
+        const dynamicMargin = Math.max(50, Math.round(fontSize * 0.5));
+        const dynamicPadding = `0 ${Math.round(fontSize * 0.5)}px`;
         const wordsInGroup = Math.max(8, group * 8 + 8); // fewer words per group for more angular space
         const angle = (2 * Math.PI * posInGroup) / wordsInGroup + (group % 2 === 0 ? 0 : Math.PI / wordsInGroup);
         const radius = baseRadius + group * (stepRadius + dynamicMargin +20); // larger step for more radial space

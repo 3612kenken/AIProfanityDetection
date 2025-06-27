@@ -36,6 +36,9 @@ export default function Navigation() {
             <li className="nav-item">
               <Link className="nav-link" to="/comments">Comments</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/audio-transcriber">Audio Transcribe</Link>
+            </li>
           </ul>
         </div>
       </div>

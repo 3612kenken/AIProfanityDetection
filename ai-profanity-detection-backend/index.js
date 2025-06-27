@@ -23,6 +23,7 @@ app.use('/api/api-token-registered', require('./api-gateway/apiTokenRegisteredAp
 app.use('/api/api-token-renewal', require('./api-gateway/apiTokenRenewalApi'));
 app.use('/api/users', require('./api-gateway/usersApi'));
 app.use('/api/identify-profanity', require('./api-gateway/apiIdentifyProfanity')); // <-- add this line
+app.use('/api/voice-to-text', require('./api-gateway/apiVoiceToText'));
 
 const { ProfanityLogs } = require('./db-schema-system/profanitySystemSchema');
 

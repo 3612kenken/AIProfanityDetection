@@ -12,13 +12,17 @@ import ApiTokenRenewalForm from './components/ApiTokenRenewalForm';
 import UsersForm from './components/UsersForm';
 import IdentifyProfanityForm from './components/IdentifyProfanityForm';
 import CommentSection from './components/CommentSection';
+import LibWordCloud from './components/libWordCloud';
+import AudioTranscriber from './components/audioTranscriber';
+import LiveMicTranscriber from './components/LiveMicTranscriber';
+
 
 function App() {
   return (
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/" element={<WordCloud />} />
+        <Route path="/" element={<LibWordCloud />} />
         <Route path="/profanity-logs" element={<ProfanityLogsForm />} />
         <Route path="/profanity-terms" element={<ProfanityTermsForm />} />
         <Route path="/api-token-registered" element={<ApiTokenRegisteredForm />} />
@@ -26,6 +30,7 @@ function App() {
         <Route path="/users" element={<UsersForm />} />
         <Route path="/identify-profanity" element={<IdentifyProfanityForm />} />
           <Route path="/comments" element={<CommentSection />} />
+          <Route path="/audio-transcriber" element={<LiveMicTranscriber />} />
       </Routes>
     </Router>
   )
