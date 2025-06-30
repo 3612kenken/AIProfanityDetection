@@ -15,14 +15,17 @@ function LiveMicTranscriber() {
     mediaRecorderRef.current = new window.MediaRecorder(stream);
     let audioChunks = [];
 
-    mediaRecorderRef.current.ondataavailable = async (event) => {
+    mediaRecorderRef.current.ondataavailable = (event) => {
       if (event.data.size > 0) {
         audioChunks.push(event.data);
+      }
+    };
 
-        // Send the chunk for transcription
-        const blob = new Blob([event.data], { type: 'audio/webm' });
+    mediaRecorderRef.current.onstop = async () => {
+      if (audioChunks.length > 0) {
+        const blob = new Blob(audioChunks, { type: 'audio/webm' });
         const formData = new FormData();
-        formData.append('audio', blob, 'chunk.webm');
+        formData.append('audio', blob, 'recording.webm');
 
         try {
           const res = await axios.post(API_URL, formData, {
@@ -31,9 +34,8 @@ function LiveMicTranscriber() {
               'x-api-key': API_KEY
             },
           });
-          // Fix: Always check for res.data.text and append if present
           if (res.data && typeof res.data.text === 'string' && res.data.text.trim() !== '') {
-            setTranscript(prev => (prev ? prev + ' ' : '') + res.data.text);
+            setTranscript(res.data.text);
           }
         } catch (err) {
           console.error('❌ Transcription error:', err.message);
@@ -41,7 +43,7 @@ function LiveMicTranscriber() {
       }
     };
 
-    mediaRecorderRef.current.start(3000); // Send every 3 seconds
+    mediaRecorderRef.current.start();
     setRecording(true);
   };
 
@@ -59,7 +61,7 @@ function LiveMicTranscriber() {
             className={`btn ${recording ? 'btn-danger' : 'btn-primary'} mb-3`}
             onClick={recording ? stopRecording : startRecording}
           >
-            {recording ? '🛑 Stop' : '🎤 Start Recording Kenz'}
+            {recording ? '🛑 Stop' : '🎤 Start Recording'}
           </button>
           <div className="mt-3">
             <h4>📝 Transcript:</h4>
@@ -74,3 +76,4 @@ function LiveMicTranscriber() {
 }
 
 export default LiveMicTranscriber;
+// (File did not exist before creation. Remove this file to rollback to before LiveMicTranscriber was created.)
